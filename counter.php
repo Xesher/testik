@@ -14,7 +14,6 @@ $cod=mysqli_fetch_assoc($result);
 <?php
 $count=mysqli_query($connection, "SELECT * FROM `visitors` WHERE 1");
 $cod=mysqli_num_rows($count);
-$name =('Вы '.$cod.' посетитель ');
 
 ?>
 
